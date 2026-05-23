@@ -20,7 +20,7 @@ Multi-screen React Native app dengan React Navigation.
 2. npx expo start
 3. Scan QR code di Expo Go
 
-## awal
+## Home
 ![Tampilan awal](./assets/Awal.png)
 
 ## Deskripsi destinasi
