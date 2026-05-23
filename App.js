@@ -1,30 +1,3 @@
-/**
- * ============================================================
- *  TRAVEL BUDDY — App.js
- *  Pertemuan 9: React Navigation (Stack + Bottom Tab)
- * ============================================================
- *
- *  Struktur Navigasi:
- *  NavigationContainer
- *  └── BottomTabNavigator
- *      ├── HomeTab  → HomeStack
- *      │             ├── HomeScreen   (FlatList destinations)
- *      │             └── DetailScreen (route.params display)
- *      ├── SearchTab → SearchStack
- *      │              ├── SearchScreen   (filter by query)
- *      │              └── SearchDetail  (reuse DetailScreen)
- *      └── FavoritesTab → FavoritesScreen (global state)
- *
- *  Dependencies:
- *    @react-navigation/native
- *    @react-navigation/bottom-tabs
- *    @react-navigation/stack
- *    react-native-screens
- *    react-native-safe-area-context
- *    @expo/vector-icons
- * ============================================================
- */
-
 import React, { useState, useCallback, useContext, createContext } from "react";
 import {
   View,
